@@ -105,3 +105,8 @@ img {
 .footer {
     background-color: #1F2937;
 }
+
+.middle-cards img {
+    width: 200px;
+    height: 200px;
+}
