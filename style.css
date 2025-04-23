@@ -140,7 +140,28 @@ img {
     max-width: 200px;
 }
 
-.test {
-    background-color: aquamarine;
-    height: 300px;
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote .box {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote .text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 1400px;
+}
+
+.quote .ath {
+    font-size: 18px;
+    font-weight: bold;
+    align-self: flex-end;
 }
