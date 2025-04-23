@@ -212,3 +212,12 @@ img {
     border: 2px solid #F9FAF8;
     border-color: #F9FAF8;
 }
+
+.footer {
+    padding: 40px;
+    text-align: center;
+}
+
+.footer p {
+    color: #F9FAF8;
+}
