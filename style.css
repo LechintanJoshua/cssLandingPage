@@ -165,3 +165,50 @@ img {
     font-weight: bold;
     align-self: flex-end;
 }
+
+.last {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.last .box {
+    height: 200px;
+    background-color: #3882F6;
+    width: 75%;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.last .container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 80%;
+}
+
+.container .left {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.container p {
+    font-size: 28px;
+    color: #E5E7EB;
+    font-weight: 700;
+}
+
+.container .norm {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.container button {
+    border: 2px solid #F9FAF8;
+    border-color: #F9FAF8;
+}
